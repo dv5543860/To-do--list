@@ -1,6 +1,4 @@
-Here's a `README.md` file template for your Todo List application. You can use this as a starting point and modify it according to your needs:
 
-```markdown
 # Todo List Application
 
 ## Overview
@@ -12,7 +10,7 @@ This project is a full-stack Todo List application with a React frontend and an 
 - **Frontend**: Built with React, this part of the application handles user interactions and communicates with the backend API to perform CRUD operations.
 - **Backend**: Developed using Express and Node.js, the backend provides API endpoints for task management and stores data in a JSON file.
 
-# I Deployed this project ...
+### I Deployed this project ...
 - **Deployment**:
   - **Frontend**: Hosted on Netlify
   - **Backend**: Hosted on Render
@@ -90,4 +88,76 @@ It operates on a port defined by the environment variable `PORT`, defaulting to 
    ```
 
    The backend will be available at `http://localhost:5000`.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 800px;
+        }
+        .project-link a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .project-link a:hover {
+            text-decoration: underline;
+        }
+        h2 {
+            color: #333;
+        }
+        .feature-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .feature-list li {
+            background: #f9f9f9;
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><b>Todo List</b></h1>
+    </header>
+    <div class="container">
+        <div class="project-link">
+            <p>Check out the live link of the Todo list app <a href="https://66a8b56dd7b6d12bccfff2ab--to-do-list-dipanshuv.netlify.app/">here</a>.</p>
+        </div>
+        <h2>Technologies Used</h2>
+        <ul class="feature-list">
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Dummy JSON</li>
+        </ul>
+        <h2>Developer</h2>
+        <ul class="feature-list">
+            <li>Developed by Dipanshu Verma</li>
+        </ul>
+    </div>
+</body>
+</html>
 
